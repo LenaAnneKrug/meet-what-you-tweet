@@ -2,7 +2,9 @@ name := "meet-what-you-tweet"
 description := "A demo application to showcase identifying topics from tweets"
 version  := "0.1.0"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.11.8"
+
+mainClass in(Compile, run) := Some("com.whimisicalbees.mwyt.TweetWhatYouMeet")
 
 libraryDependencies ++= Seq(
 	"edu.stanford.nlp" % "stanford-corenlp" % "3.5.2" artifacts (Artifact("stanford-corenlp", "models"), Artifact("stanford-corenlp")),
