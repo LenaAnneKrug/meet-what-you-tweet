@@ -1,4 +1,4 @@
-package com.whimisicalbees.twitter
+package com.whimsicalbees.twitter
 
 import com.danielasfregola.twitter4s.entities.{ ConsumerToken, AccessToken, Tweet, HashTag }
 import com.danielasfregola.twitter4s.TwitterClient

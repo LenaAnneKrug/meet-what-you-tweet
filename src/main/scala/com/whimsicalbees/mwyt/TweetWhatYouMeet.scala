@@ -1,8 +1,8 @@
-package com.whimisicalbees.mwyt
+package com.whimsicalbees.mwyt
 
 import com.danielasfregola.twitter4s.entities.enums.Measure
 import com.danielasfregola.twitter4s.entities.{Accuracy, GeoCode, LocationTrends, Tweet}
-import com.whimisicalbees.twitter.TwitterHelper
+import com.whimsicalbees.twitter.TwitterHelper
 import org.carrot2.clustering.lingo.LingoClusteringAlgorithm
 import org.carrot2.core.{ControllerFactory, Document}
 

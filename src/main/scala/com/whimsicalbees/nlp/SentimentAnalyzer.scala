@@ -1,8 +1,8 @@
-package com.whimisicalbees.nlp
+package com.whimsicalbees.nlp
 
 import java.util.Properties
 
-import com.whimisicalbees.nlp.Sentiment.Sentiment
+import com.whimsicalbees.nlp.Sentiment.Sentiment
 import edu.stanford.nlp.pipeline.Annotation
 import edu.stanford.nlp.ling.CoreAnnotations
 import edu.stanford.nlp.pipeline.StanfordCoreNLP

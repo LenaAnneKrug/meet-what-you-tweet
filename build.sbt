@@ -4,7 +4,7 @@ version  := "0.1.0"
 
 scalaVersion := "2.11.8"
 
-mainClass in(Compile, run) := Some("com.whimisicalbees.mwyt.TweetWhatYouMeet")
+mainClass in(Compile, run) := Some("com.whimsicalbees.mwyt.TweetWhatYouMeet")
 
 libraryDependencies ++= Seq(
 	"edu.stanford.nlp" % "stanford-corenlp" % "3.5.2" artifacts (Artifact("stanford-corenlp", "models"), Artifact("stanford-corenlp")),
